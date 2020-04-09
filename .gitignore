@@ -1,2 +1,5 @@
 .venv/
 *.sql
+.ipynb_checkpoints/
+temp/
+.env
