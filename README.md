@@ -28,6 +28,13 @@ The database credentials has been omitted.
         adminer
 
 now you can see your database by accessing:
-http://localhost:8080/`
+http://localhost:8080/
 
-
+# Populating the database
+1. With Adimer running, go to:
+    http://localhost:8080/, and follow the steps above:
+    1.1 ![adminer](/images/adminer.png)
+    Enter with your credentials(in this case, I am using a remote database from remotemysql.com)
+    
+    1.2 ![informations_database](/images/informations_database.png)
+    Look to the database structure.
