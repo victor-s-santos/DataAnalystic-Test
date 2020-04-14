@@ -4,6 +4,7 @@
         <a href="#about">About</a> •
         <a href="#how_to_run">How to run</a> •
         <a href="#populating_the_database">Populating the database</a> •
+         <a href="#jupyter_notebooks">Jupyter Notebooks</a> •
       </p>
    </tr>
 </table>
@@ -64,3 +65,15 @@ http://localhost:8080/
    2.2 ![inserting_full_data](/images/insert_full_data.png)
    This way is going to waste much time, as the 2.1, but in this case you are going to execute a single line*.
    But, if you are using a free account, it might be necessary to use the 2.1 way, because in this case, your connection with remotemysql.com are going to break in less time than the necessary time to finish python execution.
+   
+
+# Jupyter_Notebooks
+>To describe what are the reason of each jupyter notebook in this repo:
+1. DDL.ipynb:
+>This notebook is used to create the database structure executing SQL statment in python.
+
+2. pre-processing.ipynb:
+>This notebook is used to do the pre-processing in the sql file, to manually export a csv where I can use the correlation pandas feature.
+
+3. Analysis.ipynb:
+>This notebook is used to do the data analysis, even in the remote mysql table as the csv files.
