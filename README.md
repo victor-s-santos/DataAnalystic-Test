@@ -53,3 +53,14 @@ http://localhost:8080/
     
     1.3 ![inserting_players](/images/inserting_players.png)
     The easiest way to populate the data base. The another is just run by python.
+  
+2.With jupyter notebook:
+
+   2.1 ![inserting_by_python](/images/inserting_by_python.png)
+   This way is going to waste much more than the previous way, because we have much data amount.
+   
+   or
+   
+   2.2 ![inserting_full_data](/images/insert_full_data.png)
+   This way is going to waste much time, as the 2.1, but in this case you are going to execute a single line*.
+   But, if you are using a free account, it might be necessary to use the 2.1 way, because in this case, your connection with remotemysql.com are going to break in less time than the necessary time to finish python execution.
