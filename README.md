@@ -5,6 +5,7 @@
         <a href="#how_to_run">How to run</a> •
         <a href="#populating_the_database">Populating the database</a> •
          <a href="#jupyter_notebooks">Jupyter Notebooks</a> •
+         <a href="#observed_correlations">Observed Correlations</a> •
       </p>
    </tr>
 </table>
@@ -77,3 +78,12 @@ http://localhost:8080/
 
 3. Analysis.ipynb:
 >This notebook is used to do the data analysis, even in the remote mysql table as the csv files.
+
+# Observed_Correlations
+>Here are the images of the correlations:
+
+## The correlation in the matchmaking_summary table:
+![heatmap_chart_matchmakingsummary](/images/heatmap_chart_matchmakingsummary.png)
+
+## The correlation in the player_mounthly_stats table:
+![heatmap_chart_monthly](/images/heatmap_chart_monthly.png)
