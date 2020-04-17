@@ -77,7 +77,10 @@ http://localhost:8080/
 >This notebook is used to do the pre-processing in the sql file, to manually export a csv where I can use the correlation pandas feature.
 
 3. Analysis.ipynb:
->This notebook is used to do the data analysis, even in the remote mysql table as the csv files.
+>This notebook is used to do the data analysis, even in the remote mysql table as the csv files, to mainly answer the questions in the test.
+
+4.Analysis2.ipynb:
+>This notebook is where I analyse the players skills, and the growth in the number of accounts created.
 
 # Observed_Correlations
 >Here are the images of the correlations:
