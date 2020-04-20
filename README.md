@@ -28,6 +28,10 @@ The database credentials has been omitted.
    * pip install python-dotenv `to install dotenv`
    * pip install pymysql `to install this pure-Python MySQL client library`
 
+   3.1 Graph dependencies:
+      * pip install matplotlib
+      * pip install seaborn
+   
 4. Open python notebook:
     * ipython notebook
     
@@ -47,23 +51,23 @@ http://localhost:8080/
 1. With Adimer running, go to:
     http://localhost:8080/, and follow the steps above:
     
-    1.1 ![adminer](/images/adminer.png)
+    1.1 ![adminer](/images/adminer/adminer.png)
     Enter with your credentials(in this case, I am using a remote database from remotemysql.com)
     
-    1.2 ![informations_database](/images/informations_database.png)
+    1.2 ![informations_database](/images/adminer/informations_database.png)
     Look to the database structure.
     
-    1.3 ![inserting_players](/images/inserting_players.png)
+    1.3 ![inserting_players](/images/adminer/inserting_players.png)
     The easiest way to populate the data base. The another is just run by python.
   
 2.With jupyter notebook:
 
-   2.1 ![inserting_by_python](/images/inserting_by_python.png)
+   2.1 ![inserting_by_python](/images/adminer/inserting_by_python.png)
    This way is going to waste much more than the previous way, because we have much data amount.
    
    or
    
-   2.2 ![inserting_full_data](/images/insert_full_data.png)
+   2.2 ![inserting_full_data](/images/adminer/insert_full_data.png)
    This way is going to waste much time, as the 2.1, but in this case you are going to execute a single line*.
    But, if you are using a free account, it might be necessary to use the 2.1 way, because in this case, your connection with remotemysql.com are going to break in less time than the necessary time to finish python execution.
    
@@ -77,16 +81,26 @@ http://localhost:8080/
 >This notebook is used to do the pre-processing in the sql file, to manually export a csv where I can use the correlation pandas feature.
 
 3. Analysis.ipynb:
->This notebook is used to do the data analysis, even in the remote mysql table as the csv files, to mainly answer the questions in the test.
+>This notebook is used to do the data analysis, even in the remote mysql table as the csv files, to mainly answer the questions in the test. In this notebook I argue about the correlation method to choose, and why.
 
 4.Analysis2.ipynb:
 >This notebook is where I analyse the players skills, and the growth in the number of accounts created.
 
 # Observed_Correlations
->Here are the images of the correlations:
+>Here are some the images of the correlations:
 
 ## The correlation in the matchmaking_summary table:
-![heatmap_chart_matchmakingsummary](/images/heatmap_chart_matchmakingsummary.png)
+![heatmap_chart_matchmakingsummary](/images/correlations/heatmap_spearman_matchmakingsummary.png)
 
 ## The correlation in the player_mounthly_stats table:
-![heatmap_chart_monthly](/images/heatmap_chart_monthly.png)
+![heatmap_chart_monthly](/images/correlations/heatmap_chart_monthly.png)
+
+# Trends noticed
+>Here are the images of where trends are concluded
+
+## Relation account_created x day:
+![accountbydate](/images/charts/accountbydate.png)
+
+
+## Relation account_created x month:
+![accountbymonth](/images/charts/accountbymonth.png)
