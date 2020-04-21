@@ -93,7 +93,7 @@ http://localhost:8080/
 ![heatmap_chart_matchmakingsummary](/images/correlations/heatmap_spearman_matchmakingsummary.png)
 
 ## The correlation in the player_mounthly_stats table:
-![heatmap_chart_monthly](/images/correlations/heatmap_chart_monthly.png)
+![heatmap_spearman_monthly](/images/correlations/heatmap_spearman_monthly.png)
 
 # Trends noticed
 >Here are the images of where trends are concluded
