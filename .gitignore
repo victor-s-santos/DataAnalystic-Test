@@ -1,5 +1,7 @@
 .venv/
-.ipynb_checkpoints/
+*.ipynb_checkpoints/
 temp/
 .env
 *.txt
+plugins/
+*.jar
