@@ -21,7 +21,7 @@ The database credentials has been omitted.
     * source .venv/bin/activate `to use this virtualenv`
     
 2. Clone this repository:
-    * git clone https://github.com/victor-s-santos/Python-SQL.git
+    * git clone https://github.com/victor-s-santos/DataAnalystic-Test.git
 
 3. Install the dependencies:
    * pip install ipython[notebook] `to install jupyter notebook`
